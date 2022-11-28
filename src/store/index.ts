@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { shallowEqual, TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
-import counter from './modules/counter'
+import recommendReducer from '@/views/Discovery/c-views/Recommand/store/rec'
 
 const store = configureStore({
   reducer: {
-    counter: counter
+    recommend: recommendReducer
   }
 })
 
@@ -14,6 +14,9 @@ const store = configureStore({
  * TypedUseSelectorHook是函数签名的用法<>中传入state的类型
  * selector: (state: TState) => TSelected 中TSelected有state类型的返回值类型推导得出
  */
+
+// const state = store.getState()
+// type IRootState = typeof state
 type GetStateFnType = typeof store.getState
 type IRootState = ReturnType<GetStateFnType>
 type Dispatch = typeof store.dispatch
