@@ -6,3 +6,9 @@ export function getBanner() {
     url: '/banner'
   })
 }
+
+export function getHotRecommend(limit = 30) {
+  return hyRequest.get({
+    url: '/personalized'
+  })
+}

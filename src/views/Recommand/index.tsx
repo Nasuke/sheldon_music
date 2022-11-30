@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import type { FC, ReactNode } from "react"
+import useEffect from 'react';
 
 interface IProps {
   children?: ReactNode

@@ -16,6 +16,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.44.0
   antd: ^5.0.2
   axios: ^1.2.0
+  classnames: ^2.3.2
   craco-less: 2.1.0-alpha.0
   eslint: ^8.28.0
   eslint-plugin-react: ^7.31.11
@@ -42,6 +43,7 @@ dependencies:
   '@types/react-dom': registry.npmmirror.com/@types/react-dom/18.0.9
   antd: registry.npmmirror.com/antd/5.0.2_biqbaboplfbrettd7655fr4n2y
   axios: registry.npmmirror.com/axios/1.2.0
+  classnames: registry.npmmirror.com/classnames/2.3.2
   craco-less: registry.npmmirror.com/craco-less/2.1.0-alpha.0_re6josazyxuhl5pbhcltu2777u
   normalize.css: registry.npmmirror.com/normalize.css/8.0.1
   react: registry.npmmirror.com/react/18.2.0
